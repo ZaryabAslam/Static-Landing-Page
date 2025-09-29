@@ -1,0 +1,21 @@
+{
+  "name": "kaira-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bootstrap-only starter for Kaira-style homepage (no React/JS frameworks)",
+  "scripts": {
+    "postinstall": "echo 'Bootstrap installed. Open index.html with a static server.'",
+    "dev": "npx serve .",
+    "start": "npx serve .",
+    "build:sass": "sass assets/scss:assets/css --no-source-map --style=expanded",
+    "watch:sass": "sass --watch assets/scss:assets/css --style=expanded"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3"
+  },
+  "devDependencies": {
+    "sass": "^1.92.1",
+    "serve": "^14.2.5"
+  }
+}
