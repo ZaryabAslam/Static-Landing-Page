@@ -1,10 +1,6 @@
 # Kaira — Bootstrap-only Homepage
 
-This is a **pure HTML + CSS + Bootstrap** starter that recreates the top sections of the Kaira theme:
-- Navigation bar
-- Hero carousel with text/actions
-- Feature list (icons + text)
-- 3-up product grid (Shop for Men, Women, Accessories)
+This is a **pure HTML + CSS + Bootstrap** project:
 
 ## How to use (as requested: Bootstrap via npm)
 
@@ -21,11 +17,8 @@ This is a **pure HTML + CSS + Bootstrap** starter that recreates the top section
 
    > You can also open `index.html` directly in the browser. But serving via a local server is recommended so the `node_modules` paths work consistently.
 
-3. Replace images in `assets/img/` with your own (keep the filenames or update the `<img>` `src` paths in `index.html`).
-
 ## Notes
 
 - No custom JavaScript was written. The only runtime JS is Bootstrap's own bundle for the carousel.
 - Icons come from **bootstrap-icons** (also installed via npm).
 - Small CSS-only animations are included for hover/lift and caption fade-in.
-- When you're ready, tell me what to add next and I'll extend the same project.
